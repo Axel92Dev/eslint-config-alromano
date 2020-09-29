@@ -44,7 +44,7 @@ or just
 
 ```json
 {
-  "extends": "lmn"
+  "extends": "alromano"
 }
 ```
 

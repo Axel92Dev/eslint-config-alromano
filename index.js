@@ -34,7 +34,6 @@ module.exports = {
         tsx: 'never',
       },
     ],
-    'import/no-extraneous-dependencies': 'off', // Allows lmn-common-lib compatibility
     'prefer-arrow-callback': ['error', { allowNamedFunctions: true }], // Avoids 'anonymous' functions in error stacks
     'no-use-before-define': ['error', { functions: false, classes: true }],
     'arrow-parens': ['error', 'always'], // Easier refactors
@@ -44,6 +43,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/state-in-constructor': 'off',
     'react/jsx-boolean-value': ['error', 'always'],
+    'react/react-in-jsx-scope': 'off',
 
     'prettier/prettier': [
       'error',
